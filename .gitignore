@@ -47,6 +47,60 @@ temp/
 *.log
 logs/
 
+# Large source assets kept outside Git history
+*.pdf
+*.djvu
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.cbz
+*.cbr
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.pages
+*.numbers
+*.key
+
+# Archives and installers
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.iso
+*.exe
+*.msi
+*.dmg
+*.pkg
+
+# Media files
+*.mp3
+*.wav
+*.flac
+*.aac
+*.m4a
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+
+# OCR and extracted full-text artifacts
+*.hocr
+*.ocr.hocr
+*.ocr.txt
+*.alto.xml
+02_library/**/*.txt
+
 # Obsidian local workspace state
 03_vault/.obsidian/workspace.json
 03_vault/.obsidian/workspace-mobile.json
