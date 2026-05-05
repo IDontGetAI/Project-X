@@ -47,6 +47,14 @@ temp/
 *.log
 logs/
 
+# Local intake and source library assets
+01_inbox/**
+02_library/**
+!01_inbox/**/
+!02_library/**/
+!01_inbox/**/.gitkeep
+!02_library/**/.gitkeep
+
 # Large source assets kept outside Git history
 *.pdf
 *.djvu
@@ -101,11 +109,27 @@ logs/
 *.alto.xml
 02_library/**/*.txt
 
-# Obsidian local workspace state
-03_vault/.obsidian/workspace.json
-03_vault/.obsidian/workspace-mobile.json
-03_vault/.obsidian/cache/
-03_vault/.obsidian/plugins/*/data.json
+# Obsidian local state and personal settings
+03_vault/.obsidian/**
+!03_vault/.obsidian/
+!03_vault/.obsidian/.gitkeep
+
+# Secrets and local credentials
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials*.json
+token*.json
+secrets.*
+
+# Sync conflict files
+*conflicted copy*
+*冲突*
+*同步冲突*
 
 # Keep intentional placeholder files trackable
 !.gitkeep
