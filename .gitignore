@@ -1,13 +1,57 @@
-# OS and editor noise
+# Operating system files
 .DS_Store
+.AppleDouble
+.LSOverride
 Thumbs.db
+ehthumbs.db
 desktop.ini
+$RECYCLE.BIN/
 
-# Python caches
+# Editor and IDE state
+.idea/
+.vscode/
+*.code-workspace
+
+# Python caches and virtual environments
 __pycache__/
 *.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+ENV/
 
-# Local temporary output
+# Test, coverage, and build output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Local temporary files
 .tmp/
 tmp/
+temp/
 *.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+# Logs
+*.log
+logs/
+
+# Obsidian local workspace state
+03_vault/.obsidian/workspace.json
+03_vault/.obsidian/workspace-mobile.json
+03_vault/.obsidian/cache/
+03_vault/.obsidian/plugins/*/data.json
+
+# Keep intentional placeholder files trackable
+!.gitkeep
