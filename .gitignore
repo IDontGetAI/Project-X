@@ -1,0 +1,13 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local temporary output
+.tmp/
+tmp/
+*.tmp

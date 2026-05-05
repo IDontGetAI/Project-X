@@ -1,0 +1,385 @@
+mathematics:
+  name: mathematics
+  code: MATH
+  branches:
+    general:
+      name: general
+      code: MATH-GEN
+    analysis:
+      name: analysis
+      code: MATH-ANL
+    algebra:
+      name: algebra
+      code: MATH-ALG
+    geometry-topology:
+      name: geometry-topology
+      code: MATH-GEOTOP
+    number-theory:
+      name: number-theory
+      code: MATH-NT
+    probability-statistics:
+      name: probability-statistics
+      code: MATH-PSTAT
+    logic-foundations:
+      name: logic-foundations
+      code: MATH-LOGF
+    discrete-math:
+      name: discrete-math
+      code: MATH-DISC
+    applied-math:
+      name: applied-math
+      code: MATH-APPL
+
+physics:
+  name: physics
+  code: PHYS
+  branches:
+    general:
+      name: general
+      code: PHYS-GEN
+    classical-mechanics:
+      name: classical-mechanics
+      code: PHYS-CM
+    electromagnetism:
+      name: electromagnetism
+      code: PHYS-EM
+    thermodynamics-statmech:
+      name: thermodynamics-statmech
+      code: PHYS-THERM
+    quantum-mechanics:
+      name: quantum-mechanics
+      code: PHYS-QM
+    relativity:
+      name: relativity
+      code: PHYS-REL
+    field-theory:
+      name: field-theory
+      code: PHYS-FT
+    condensed-matter:
+      name: condensed-matter
+      code: PHYS-CMAT
+    optics-photonics:
+      name: optics-photonics
+      code: PHYS-OPT
+    atomic-molecular:
+      name: atomic-molecular
+      code: PHYS-AMO
+    astrophysics-cosmology:
+      name: astrophysics-cosmology
+      code: PHYS-ASTRO
+    math-methods:
+      name: math-methods
+      code: PHYS-MATH
+
+computer-science:
+  name: computer-science
+  code: CS
+  branches:
+    general:
+      name: general
+      code: CS-GEN
+    theory-of-computation:
+      name: theory-of-computation
+      code: CS-TOC
+    algorithms-data-structures:
+      name: algorithms-data-structures
+      code: CS-ALGDS
+    programming-languages:
+      name: programming-languages
+      code: CS-PL
+    systems:
+      name: systems
+      code: CS-SYS
+    computer-architecture:
+      name: computer-architecture
+      code: CS-ARCH
+    networks-distributed:
+      name: networks-distributed
+      code: CS-NET
+    databases:
+      name: databases
+      code: CS-DB
+    software-engineering:
+      name: software-engineering
+      code: CS-SE
+    security-privacy:
+      name: security-privacy
+      code: CS-SEC
+    graphics-hci:
+      name: graphics-hci
+      code: CS-GHCI
+
+artificial-intelligence:
+  name: artificial-intelligence
+  code: AI
+  branches:
+    general:
+      name: general
+      code: AI-GEN
+    foundations:
+      name: foundations
+      code: AI-FOUND
+    machine-learning:
+      name: machine-learning
+      code: AI-ML
+    deep-learning:
+      name: deep-learning
+      code: AI-DL
+    reinforcement-learning:
+      name: reinforcement-learning
+      code: AI-RL
+    nlp:
+      name: nlp
+      code: AI-NLP
+    computer-vision:
+      name: computer-vision
+      code: AI-CV
+    generative-models:
+      name: generative-models
+      code: AI-GENMOD
+    multimodal-agents:
+      name: multimodal-agents
+      code: AI-MMA
+    ai-safety-alignment:
+      name: ai-safety-alignment
+      code: AI-SAFE
+    optimization-inference:
+      name: optimization-inference
+      code: AI-OPTINF
+
+psychology:
+  name: psychology
+  code: PSY
+  branches:
+    general:
+      name: general
+      code: PSY-GEN
+    intro-history:
+      name: intro-history
+      code: PSY-INTRO
+    cognitive:
+      name: cognitive
+      code: PSY-COG
+    developmental:
+      name: developmental
+      code: PSY-DEV
+    social:
+      name: social
+      code: PSY-SOC
+    personality-individual-differences:
+      name: personality-individual-differences
+      code: PSY-PID
+    biological-neuroscience:
+      name: biological-neuroscience
+      code: PSY-BIO
+    clinical-abnormal:
+      name: clinical-abnormal
+      code: PSY-CLIN
+    learning-motivation:
+      name: learning-motivation
+      code: PSY-LM
+    judgment-decision:
+      name: judgment-decision
+      code: PSY-JD
+    methods-psychometrics:
+      name: methods-psychometrics
+      code: PSY-MET
+
+economics:
+  name: economics
+  code: ECON
+  branches:
+    general:
+      name: general
+      code: ECON-GEN
+    intro-history:
+      name: intro-history
+      code: ECON-INTRO
+    microeconomics:
+      name: microeconomics
+      code: ECON-MICRO
+    macroeconomics:
+      name: macroeconomics
+      code: ECON-MACRO
+    econometrics:
+      name: econometrics
+      code: ECON-METRICS
+    game-theory:
+      name: game-theory
+      code: ECON-GT
+    behavioral:
+      name: behavioral
+      code: ECON-BEH
+    public:
+      name: public
+      code: ECON-PUB
+    industrial-organization:
+      name: industrial-organization
+      code: ECON-IO
+    international:
+      name: international
+      code: ECON-INTL
+    labor:
+      name: labor
+      code: ECON-LAB
+    development:
+      name: development
+      code: ECON-DEV
+    finance:
+      name: finance
+      code: ECON-FIN
+    economic-history:
+      name: economic-history
+      code: ECON-HIST
+
+philosophy:
+  name: philosophy
+  code: PHIL
+  branches:
+    general:
+      name: general
+      code: PHIL-GEN
+    introduction:
+      name: introduction
+      code: PHIL-INTRO
+    history:
+      name: history
+      code: PHIL-HIST
+    logic:
+      name: logic
+      code: PHIL-LOGIC
+    metaphysics:
+      name: metaphysics
+      code: PHIL-META
+    epistemology:
+      name: epistemology
+      code: PHIL-EPI
+    philosophy-of-mind:
+      name: philosophy-of-mind
+      code: PHIL-MIND
+    philosophy-of-language:
+      name: philosophy-of-language
+      code: PHIL-LANG
+    ethics:
+      name: ethics
+      code: PHIL-ETH
+    political-philosophy:
+      name: political-philosophy
+      code: PHIL-POL
+    philosophy-of-science:
+      name: philosophy-of-science
+      code: PHIL-SCI
+    aesthetics-religion:
+      name: aesthetics-religion
+      code: PHIL-AESTH
+    yixue:
+      name: yixue
+      code: PHIL-YIXUE
+
+history:
+  name: history
+  code: HIST
+  branches:
+    general:
+      name: general
+      code: HIST-GEN
+    historiography-methods:
+      name: historiography-methods
+      code: HIST-HM
+    world-history:
+      name: world-history
+      code: HIST-WORLD
+    china:
+      name: china
+      code: HIST-CHN
+    east-asia:
+      name: east-asia
+      code: HIST-EASIA
+    south-asia:
+      name: south-asia
+      code: HIST-SASIA
+    middle-east:
+      name: middle-east
+      code: HIST-ME
+    europe:
+      name: europe
+      code: HIST-EUR
+    africa:
+      name: africa
+      code: HIST-AFR
+    americas:
+      name: americas
+      code: HIST-AMER
+    science-technology-history:
+      name: science-technology-history
+      code: HIST-STH
+    intellectual-history:
+      name: intellectual-history
+      code: HIST-INT
+
+social-science:
+  name: social-science
+  code: SOC
+  branches:
+    general:
+      name: general
+      code: SOC-GEN
+    social-theory-methods:
+      name: social-theory-methods
+      code: SOC-STM
+    sociology:
+      name: sociology
+      code: SOC-SOCIO
+    political-science:
+      name: political-science
+      code: SOC-POL
+    anthropology:
+      name: anthropology
+      code: SOC-ANTH
+    human-geography:
+      name: human-geography
+      code: SOC-GEO
+    communication-media:
+      name: communication-media
+      code: SOC-MEDIA
+    education:
+      name: education
+      code: SOC-EDU
+    demography:
+      name: demography
+      code: SOC-DEMO
+    law-society:
+      name: law-society
+      code: SOC-LAW
+    cultural-studies:
+      name: cultural-studies
+      code: SOC-CULT
+    area-studies:
+      name: area-studies
+      code: SOC-AREA
+
+interdisciplinary:
+  name: interdisciplinary
+  code: INTD
+  branches:
+    general:
+      name: general
+      code: INTD-GEN
+    cognitive-science:
+      name: cognitive-science
+      code: INTD-COGSCI
+    complexity-systems:
+      name: complexity-systems
+      code: INTD-CXSYS
+    history-philosophy-of-science:
+      name: history-philosophy-of-science
+      code: INTD-HPS
+    digital-humanities:
+      name: digital-humanities
+      code: INTD-DH
+    science-technology-society:
+      name: science-technology-society
+      code: INTD-STS
+    decision-science:
+      name: decision-science
+      code: INTD-DEC
