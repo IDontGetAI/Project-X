@@ -698,6 +698,7 @@ python 00_system/scripts/audit_system.py
 00_system/taxonomy/subjects.yaml
 00_system/conventions/workflow.md
 00_system/conventions/file-naming.md
+00_system/conventions/git-workflow.md
 00_system/conventions/note-properties.md
 00_system/conventions/zotero-workflow.md
 01_inbox/10_new/

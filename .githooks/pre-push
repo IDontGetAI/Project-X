@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo ""
+echo "[Knowledge Hub] Pre-push check"
+echo "1. Confirm this push matches one main intent."
+echo "2. Confirm staged and committed files are expected."
+echo "3. Confirm the branch target is correct."
+echo ""
+echo "If you want the full checklist, run:"
+echo "powershell -ExecutionPolicy Bypass -File ./00_system/scripts/git-safe.ps1 -NoPause"
+echo ""
+git status --short
+echo ""
+
+exit 0

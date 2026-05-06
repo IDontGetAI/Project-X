@@ -1,0 +1,14 @@
+# Commit title format:
+# Action + Object
+#
+# Good examples:
+# Document Git workflow conventions
+# Add source notes for linear algebra lecture 1
+# Refine knowledge hub usage guide
+# Update philosophy MOC links
+#
+# Before saving this commit, check:
+# - Is the staged scope clear?
+# - Does this commit express one main intent?
+# - Is the wording specific enough to understand later?
+

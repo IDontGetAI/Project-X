@@ -113,6 +113,38 @@
 - 在 Zotero 中保存附件副本，而不是 linked attachment。
 - 创建 source note 后长期不补 `zotero_key`、作者和年份。
 
+## 提交节奏建议
+
+为了让 Git 历史更容易回看，尽量把不同性质的变化拆开提交，而不是把规则、内容和实验性改动混在一起。
+
+推荐的提交颗粒度：
+
+- 规则类提交：taxonomy、模板、脚本、手册、checklist 的修改。
+- 内容类提交：source note、concept note、project note、MOC、daily note 的新增或整理。
+- 资源类提交：图片、附件、课程截图、图表等二进制资产。
+- 结构类提交：目录迁移、批量重命名、branch 扩展。
+
+推荐做法：
+
+1. 先完成一类改动，再提交一次。
+2. 如果同时改了规则和内容，优先先提交规则，再提交内容。
+3. 大量图片或附件尽量单独提交，便于以后排查仓库膨胀。
+4. 提交信息写成“动作 + 对象”，让以后能一眼看懂。
+
+示例：
+
+- `Add source notes for linear algebra lecture 1`
+- `Document Obsidian plugin workflow`
+- `Refine knowledge hub usage guide`
+- `Add branch for dynamical systems`
+
+不推荐的做法：
+
+- 把知识内容、系统规则、插件配置和图片资产全塞进一个长期看不出重点的提交。
+- 使用过于含糊的提交信息，例如 `update`、`fix`、`misc changes`。
+
+如果只是快速保存进度，可以先提交；但在形成稳定里程碑前，最好尽量让每个提交只表达一个主要意图。
+
 ## 推荐下一步
 
 先用 `02_library/philosophy/yixue/10_books/谷继明 - 周易导读（2019）.pdf` 跑通完整闭环：Zotero 条目、source note、项目笔记、MOC 回链、审计通过。一个完整样例比大量空模板更有价值。

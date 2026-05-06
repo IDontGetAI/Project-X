@@ -51,3 +51,4 @@ python 00_system/scripts/intake_file.py --src "E:\temp\book.pdf" --subject-main 
 - 路径只表达稳定维度；状态、优先级、项目归属等放入 metadata、标签或笔记正文。
 - 先维护规则和脚本，再维护具体内容。
 - 每周至少运行一次 `audit_system.py` 并完成 `00_system/checklists/weekly-review.md`。
+- Git 提交与推送规范见 `00_system/conventions/git-workflow.md`。
