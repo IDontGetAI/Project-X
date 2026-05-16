@@ -383,3 +383,14 @@ interdisciplinary:
     decision-science:
       name: decision-science
       code: INTD-DEC
+
+language-learning:
+  name: language-learning
+  code: LANG
+  branches:
+    general:
+      name: general
+      code: LANG-GEN
+    english:
+      name: english
+      code: LANG-ENG
